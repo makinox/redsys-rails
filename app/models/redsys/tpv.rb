@@ -1,7 +1,7 @@
 require 'openssl'
 require 'base64'
 require 'json'
-require 'rails-i18n'
+require 'i18n'
 
 module Redsys
   class Tpv
