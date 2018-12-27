@@ -14,20 +14,20 @@
 
 if Rails.env == 'production'
   Rails.configuration.redsys_rails = {
-    url: '',
-    sha_256_key: '',
-    merchant_code: '',
-    merchant_terminal: '',
+    url: ' https://sis-t.redsys.es:25443/canales/',
+    sha_256_key: 'sq7HjrUOBfKmC576ILgskD5srU870gJ7',
+    merchant_code: '346971864',
+    merchant_terminal: '1',
     merchant_transaction_type: '',
     merchant_currency: '978',
     signature_version: 'HMAC_SHA256_V1'
   }
 else
   Rails.configuration.redsys_rails = {
-    url: '',
-    sha_256_key: '',
-    merchant_code: '',
-    merchant_terminal: '',
+    url: ' https://sis-t.redsys.es:25443/canales/',
+    sha_256_key: 'sq7HjrUOBfKmC576ILgskD5srU870gJ7',
+    merchant_code: '346971864',
+    merchant_terminal: '1',
     merchant_transaction_type: '',
     merchant_currency: '978',
     signature_version: 'HMAC_SHA256_V1'
