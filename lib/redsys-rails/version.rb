@@ -1,5 +1,5 @@
 module RedsysRails
   module Rails
-    VERSION = "0.2.w"
+    VERSION = "0.2.2"
   end
 end
