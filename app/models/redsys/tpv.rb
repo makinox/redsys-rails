@@ -56,7 +56,7 @@ module Redsys
           'gl' => '012',
           'eu' => '013'
       }
-      return tpv_languages["#{I18n.locale}"]
+      return tpv_languages["es"]
     end
 
     def merchant_params
